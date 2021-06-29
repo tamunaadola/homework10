@@ -7,12 +7,14 @@
     width:319px;
     height: 800px;
     background-color: #222222;
+    display: flex;
+    flex-direction: column;
 
 }
 .mainbox{
     display: flex;
     justify-content: space-around;
-    padding: 40px 20px;
+    padding: 40px 10px;
 
 }
 .main_title{
@@ -23,15 +25,49 @@
     font-weight: bold ;
     /* text-shadow: white; */
 }
-/* .navigations{
+.menu_box{
     display: flex;
     justify-content: space-around;
-} */
-/* .navigations_box{
-    align-items:center;
-} */
-.first_logo{
-    border: 10px solid #FF2288;
-    border-radius: 2em;
-    background-color: #FF2288;
+    flex-direction: column;
+    
 }
+.navigations_box{
+    color: #fff;
+    padding-left: 30px;
+
+  
+}
+.first_list{
+    border: 10px solid #FF2288;
+    border-radius: 5em;
+    background-color: #FF2288;
+    width:250px;
+   
+    
+}
+
+.list_text{
+    padding-left:15px ;
+    
+}
+.extra_list{
+    padding-top: 10px;
+}
+.followers{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 30px;
+
+}
+.navigations_box2{
+    color: #fff;
+}
+
+.list_text2{
+    padding-left:15px;
+   
+}
+.list_box2{
+    padding-top: 20px;
+}
+
