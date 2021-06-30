@@ -5,7 +5,7 @@
 }
 .section_box1{
     width:319px;
-    height: 800px;
+    height: 880px;
     background-color: #222222;
     display: flex;
     flex-direction: column;
@@ -68,6 +68,37 @@
    
 }
 .list_box2{
-    padding-top: 20px;
+    padding-top: 30px;
+}
+
+.container{
+    max-width: 1935px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+   
+    
+}
+
+.header_navbarli{
+    margin:20px 20px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header_list1{
+    border: 15px solid #E7E7E7;
+    background-color: #E7E7E7;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+
+}
+.list_color{
+    color:#FF2288;
+}
+.header_list2{
+    padding-left: 30px;
 }
 
