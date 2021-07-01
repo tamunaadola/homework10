@@ -52,6 +52,8 @@
 }
 .extra_list{
     padding-top: 10px;
+    font-display: flex;
+    align-items: center;
 }
 .followers{
     display: flex;
@@ -69,6 +71,8 @@
 }
 .list_box2{
     padding-top: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .container{
@@ -77,15 +81,12 @@
     display: flex;
     justify-content: flex-start;
    
-    
 }
 
 .header_navbarli{
-    margin:20px 20px ;
-    display: flex;
-    justify-content: space-between;
-    
+    display: flex;    
 }
+
 .header_list1{
     border: 15px solid #E7E7E7;
     background-color: #E7E7E7;
@@ -93,12 +94,36 @@
     display: flex;
     justify-content: space-between;
     color: #707070;
+} 
 
-}
 .list_color{
     color:#FF2288;
 }
 .header_list2{
     padding-left: 30px;
+    
+
+}
+
+.list_border{
+    border: 10px solid #FF2288;
+    background-color: #FF2288;
+    border-radius: 2em;
+    width:150px;
+    padding-left: 15px;
+
+}
+.white_color{
+    color: #fff;
+}
+
+.header_and_content {
+    flex-grow: 1;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
