@@ -23,7 +23,7 @@
 }
 .title{
     font-weight: bold ;
-    /* text-shadow: white; */
+   
 }
 .menu_box{
     display: flex;
@@ -41,8 +41,7 @@
     border: 10px solid #FF2288;
     border-radius: 5em;
     background-color: #FF2288;
-    width:250px;
-   
+    width:250px; 
     
 }
 
@@ -135,16 +134,27 @@
 .content{
     max-width: 950px;
     width: 100%;
-    margin:40px auto ;
+    margin:50px auto ;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .header_content{
     padding-left: 30px;
 }
 .content_title{
     font-size: 15px;
+}
+.background_box{
+    border:1px solid #E7E7E7;
+    background-color: #E7E7E7;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    width:56px;
+    height: 56px;
+    padding:20px;
 }
 .beside_box{
     border: 1px solid #E7E7E7;
@@ -164,7 +174,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin:20px 20px;
+    margin:30px 50px;
 }
 .img_size{
     width: 187px;
@@ -172,20 +182,73 @@
 .second_content{
     display: flex;
     justify-content: space-around;
-    margin:20px 20px;
+    margin:40px 20px;
 
 }
 .alone_border{
     display: flex;
-    align-items: center;
-    border: 1px solid #E7E7E7;
+    justify-content: center;
+    border: 1px solid #F2F2F2;;
+    background-color: #F2F2F2;
     border-radius: 2em;
     width:289px;
     height: 50px;
-    padding-left: 20px;
+    padding:20px 50px;
+    margin-top:50px;
     
 }
-.alone_text{
+
+.footer_container{
+    max-width: 991px;
+    width: 100%;
+    margin:50px auto ;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
+.footer{
+    flex-grow: 1;
+    margin:20px 40px 0 20px;
+}
+.footer_followers{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    width: 1610px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+.content_navbarli{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact_navigation{
+    padding-left: 80px;
+    font-weight: bold ;
+
+}
+.contact_list{
+   padding-top: 30px;
+   padding-left: 20px;
+    
+}
+/* .footer_background{
+    width:100%;
+
+}
+.footer_contact{
+    max-width: 950px;
+    width: 100%;
+    margin:50px auto ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} */
